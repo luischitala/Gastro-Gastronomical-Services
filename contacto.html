@@ -64,86 +64,63 @@
 		</div>
 	</header>
 	<div class="container">
-		<div class="row">
-			<div class="col-12 mt-5">
-				<div class="carousel slide" id="principal-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-					<li data-target="#principal-carousel" data-slid-to="1" class="Active"></li>
-					<li data-target="#principal-carousel" data-slid-to="2"></li>
-					<li data-target="#principal-carousel" data-slid-to="3"></li>
-
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="carousel-caption d-block mb-5">
-								<h1>MonResto</h1>
-								<p>La mejor solución para administrar y controlar su negocio gastronómico</p>
-								<a href="#" class="btn ">Conoce más</a>
-							</div>
-							<img src="images/3.png" width="1100" height="400">
-						</div>
-						<div class="carousel-item">
-							<img src="images/2.jpg" width="1100" height="400">
-						</div>
-						<div class="carousel-item">
-							<img src="images/1.jpg" width="1100" height="400">
-						</div>
+		
+			<div class="container">
+		<div class="row mt-5">
+			<div class="col-6">
+				<form action="">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input class="form-control" type="text" placeholder="Nombre" name="nombre" id="nombre">
 					</div>
+					<div class="form-group">
+						<label for="pass">Correo</label>
+						<input class="form-control" type="texto" placeholder="Correo" name="contraseña" id="nombre">
+					</div>
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" id="mensaje" class="form-control">
+						</textarea>
+					</div>
+					<div class="form-group d-flex ">
+						<label for="pais" class="mr-3">País</label>
+						<select name="pais" id="pais">
+							<option value="mexico">México</option>
+							<option value="usa">U.S.A</option>
+							<option value="francia">Francia</option>
+							<option value="canada">Canada</option>
+							<option value="espana">Espana</option>
+						</select>
 
-					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
+						<button class="btn btn-primary ml-5" type="submit">Enviar</button>
+
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" name="cotizacion" id="cotizacion" class="form-check-input mr-2">Cotización
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" name="comentarios" id="comentarios" class="form-check-input mr-2">Comentarios
+						</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" name="terminos" id="terminosr" class="form-check-input mr-2">Acepto términos y condiciones
+						</label>
+					</div>
+					
+				</form>
+			</div>
+			<div class="col-6 contactofxi">
+				<div class="imgcontacto ml-4">
+				<img src="images/contacto.jpg" width="500" height="400">
 				</div>
 			</div>
 		</div>	
-		<div class="row">
-			<div class="col mt-3">
-				<hr>
-				<div class="card-group ">
-					<div class="card">
-					<img src="images/m1.jpg" class="card-image-top img-fluid">
-						<div class="card-block">
-						<h3 class="card-title">Reducción de costos</h3>
-						<p class="card-text">Con MonResto puede vincular sus recetas con el inventario entre muchas cosas más. </p>
-						<a href="#" class="btn btn-block">Conoce más</a>
-						</div>
-						<div class="card-footer">
-						</div>
-					</div>
-					<div class="card">
-					<img src="images/m2.jpg" class="card-image-top img-fluid">
-						<div class="card-block">
-						<h3 class="card-title">Soporte</h3>
-						<p class="card-text">Contamos con soporte presencial toda la semana y soporte en línea 24/7. </p>
-						<a href="#" class="btn btn-block">Conoce más</a>
-						</div>
-						<div class="card-footer">
-						</div>
-					</div>
-					<div class="card">
-						<img src="images/m3.jpg" class="card-image-top img-fluid">
-						<div class="card-block">
-						<h3 class="card-title">Mejor servicio</h3>
-						<p class="card-text">Administre y mejore su servicio con las herramientas que tiene nuestro software. </p>
-						<a href="#" class="btn btn-block">Conoce más</a>
-						</div>
-						<div class="card-footer">
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>		
-				
+		
+	</div>
 	</div>
 	<footer>
 		<div class="container-fluid footerfx mt-3">

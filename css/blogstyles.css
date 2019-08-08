@@ -1,0 +1,77 @@
+.headerfx{
+	background: #1B4965;
+	color: white;
+	font-family: "Chivo";
+}
+.logo{
+	font-family: Playfair Display;
+}
+.gs-nav a{
+	color:#fff;
+	padding: 15px;
+
+}
+.headerfx{
+	height: 100px;
+	width: 100%;
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0;
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	z-index: 100;
+}
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+.contactoheader a {
+	color: white;
+	font-family: "Chivo";
+	font-size:15px;
+}
+.carousel-caption p{
+	font-size:20px;
+	font-color:#CAE9FF;
+}
+.carousel-item img{
+	opacity: ;
+}
+.gs-op a{
+	color:black;
+}
+.footerfx{
+	background: #1B4965;
+	color: white;
+	font-family: "Chivo";
+	height: 300px;
+	width: 100%;
+}
+.footerfx h6{
+	font-size: 13px;
+}
+.menu-inf a {
+	color: white;
+}
+.btn{
+	background: #1B4965;
+	color: white;
+}
+.card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+.card-group img{
+
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+
+}
