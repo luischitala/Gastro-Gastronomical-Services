@@ -37,3 +37,19 @@ body{
 	font-family: "Chivo";
 	font-size:15px;
 }
+.gs-op a{
+	color:black;
+}
+.footerfx{
+	background: #1B4965;
+	color: white;
+	font-family: "Chivo";
+	height: 300px;
+	width: 100%;
+}
+.footerfx h6{
+	font-size: 13px;
+}
+.menu-inf a {
+	color: white;
+}
